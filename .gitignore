@@ -1,0 +1,73 @@
+# General
+.DS_Store
+.env
+
+# Server
+server/node_modules/
+server/.env
+server/dist/
+server/logs/
+
+# Restaurant Client (flutter_client)
+flutter_client/.dart_tool/
+flutter_client/build/
+flutter_client/.flutter-plugins
+flutter_client/.flutter-plugins-dependencies
+flutter_client/.pub/
+flutter_client/.idea/
+flutter_client/android/app/debug
+flutter_client/android/app/profile
+flutter_client/android/app/release
+
+# Mobile Client (mobile_client)
+mobile_client/.dart_tool/
+mobile_client/build/
+mobile_client/.flutter-plugins
+mobile_client/.flutter-plugins-dependencies
+mobile_client/.pub/
+mobile_client/.idea/
+mobile_client/android/app/debug
+mobile_client/android/app/profile
+mobile_client/android/app/release
+
+# VS Code
+.vscode/
+
+# Android
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*

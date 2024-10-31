@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "278087162125",
+    "project_id": "restaurantorder-39662",
+    "storage_bucket": "restaurantorder-39662.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278087162125:android:c9fb5dec1baad7d2233844",
+        "android_client_info": {
+          "package_name": "com.example.mobile_order"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278087162125-qlbap7vbtc77p9dpimiji53vq0qrvui4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobile_order",
+            "certificate_hash": "f12687ef5c45fdadb5ce5739f2d8fcf3a64d0d21"
+          }
+        },
+        {
+          "client_id": "278087162125-lrmgin26ch34fott87f6rnlghfk97j6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUkUnfyuFO5A3JUN8FWYSGjxQRDHhwzk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278087162125-lrmgin26ch34fott87f6rnlghfk97j6c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "278087162125-l95q3p5nej0gkrp5unjf1vcf3dr4gfra.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mobileOrder"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

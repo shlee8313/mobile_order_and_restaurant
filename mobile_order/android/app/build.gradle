@@ -1,0 +1,102 @@
+// plugins {
+//     id "com.android.application"
+//     // START: FlutterFire Configuration
+//     id 'com.google.gms.google-services'
+//     // END: FlutterFire Configuration
+//     id "kotlin-android"
+//     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+//     id "dev.flutter.flutter-gradle-plugin"
+// }
+
+// android {
+//     namespace = "com.example.mobile_order"
+//     compileSdk = flutter.compileSdkVersion
+//     ndkVersion = flutter.ndkVersion
+
+//     compileOptions {
+//         sourceCompatibility = JavaVersion.VERSION_17  // 수정: Java 17로 변경
+//         targetCompatibility = JavaVersion.VERSION_17  // 수정: Java 17로 변경
+//     }
+
+//     kotlinOptions {
+//         jvmTarget = "17"  // 수정: Java 17로 변경
+//     }
+
+//     defaultConfig {
+//         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+//         applicationId = "com.example.mobile_order"
+//         // You can update the following values to match your application needs.
+//         // For more information, see: https://flutter.dev/to/review-gradle-config.
+//         minSdk = 23  // 수정: Firebase Auth 요구사항을 충족하기 위해 23으로 변경
+//         targetSdk = flutter.targetSdkVersion
+//         versionCode = flutter.versionCode
+//         versionName = flutter.versionName
+//     }
+
+//     buildTypes {
+//         release {
+//             // TODO: Add your own signing config for the release build.
+//             // Signing with the debug keys for now, so `flutter run --release` works.
+//             signingConfig = signingConfigs.debug
+//         }
+//     }
+// }
+
+// flutter {
+//     source = "../.."
+// }
+
+// dependencies {
+//     // 필요한 경우 Firebase 의존성 추가
+//     // implementation platform('com.google.firebase:firebase-bom:XX.X.X')
+//     // implementation 'com.google.firebase:firebase-auth'
+    
+// }
+
+plugins {
+    id "com.android.application"
+    id 'com.google.gms.google-services'
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.example.mobile_order"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    defaultConfig {
+        applicationId = "com.example.mobile_order"
+        minSdk = 23
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    // kotlin 버전을 2.0.21로 업데이트
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.21"
+    implementation "androidx.core:core-ktx:1.13.0"
+    implementation "androidx.core:core:1.13.0"
+     implementation "androidx.annotation:annotation:1.7.0"
+}

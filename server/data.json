@@ -1,0 +1,305 @@
+{
+    "_id": {
+        "$oid": "66d8de3a19f4b8095fe2f6cc"
+    },
+    "restaurantId": "restaurant1004",
+    "categories": [
+        {
+            "name": "메인 요리",
+            "items": [
+                {
+                    "id": "main_007",
+                    "name": "프라임 립 스테이크",
+                    "description": "최상급 소고기로 만든 부드러운 스테이크",
+                    "price": {
+                        "$numberInt": "55000"
+                    },
+                    "image": "/images/prime-rib-steak.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "main_008",
+                    "name": "랍스터 테르미도르",
+                    "description": "크리미한 소스의 호화로운 랍스터 요리",
+                    "price": {
+                        "$numberInt": "60000"
+                    },
+                    "image": "/images/lobster-thermidor.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "main_009",
+                    "name": "트러플 리조또",
+                    "description": "향긋한 트러플 향이 가득한 크리미 리조또",
+                    "price": {
+                        "$numberInt": "28000"
+                    },
+                    "image": "/images/truffle-risotto.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "main_0010",
+                    "name": "왕새우 파스타",
+                    "description": "탱글탱글한 왕새우가 들어간 토마토 파스타",
+                    "price": {
+                        "$numberInt": "22000"
+                    },
+                    "image": "/images/shrimp-pasta.jpg",
+                    "isVisible": true,
+                    "diningType": "takeout"
+                },
+                {
+                    "id": "main_0011",
+                    "name": "양갈비 스테이크",
+                    "description": "부드럽고 풍미 가득한 양갈비 스테이크",
+                    "price": {
+                        "$numberInt": "38000"
+                    },
+                    "image": "/images/lamb-chops.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                }
+            ]
+        },
+        {
+            "name": "애피타이저",
+            "items": [
+                {
+                    "id": "appetizer_006",
+                    "name": "시저 샐러드",
+                    "description": "신선한 로메인 상추와 특제 드레싱의 클래식 샐러드",
+                    "price": {
+                        "$numberInt": "12000"
+                    },
+                    "image": "/images/caesar-salad.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "appetizer_007",
+                    "name": "감자 크로켓",
+                    "description": "바삭바삭한 감자 크로켓",
+                    "price": {
+                        "$numberInt": "8000"
+                    },
+                    "image": "/images/potato-croquettes.jpg",
+                    "isVisible": true,
+                    "diningType": "takeout"
+                },
+                {
+                    "id": "appetizer_008",
+                    "name": "브루스케타",
+                    "description": "신선한 토마토와 바질을 올린 이탈리안 전채",
+                    "price": {
+                        "$numberInt": "10000"
+                    },
+                    "image": "/images/bruschetta.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "appetizer_009",
+                    "name": "카프레제 샐러드",
+                    "description": "토마토, 모짜렐라, 바질의 신선한 조화",
+                    "price": {
+                        "$numberInt": "13000"
+                    },
+                    "image": "/images/caprese-salad.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "appetizer_0010",
+                    "name": "버팔로 윙",
+                    "description": "매콤한 소스의 바삭한 치킨 윙",
+                    "price": {
+                        "$numberInt": "15000"
+                    },
+                    "image": "/images/buffalo-wings.jpg",
+                    "isVisible": true,
+                    "diningType": "takeout"
+                }
+            ]
+        },
+        {
+            "name": "음료",
+            "items": [
+                {
+                    "id": "beverage_0011",
+                    "name": "아이스 아메리카노",
+                    "description": "깔끔하고 시원한 아이스 아메리카노",
+                    "price": {
+                        "$numberInt": "4500"
+                    },
+                    "image": "/images/iced-americano.jpg",
+                    "isVisible": true,
+                    "diningType": "takeout"
+                },
+                {
+                    "id": "beverage_0012",
+                    "name": "카페 라떼",
+                    "description": "부드러운 우유와 에스프레소의 조화",
+                    "price": {
+                        "$numberInt": "5000"
+                    },
+                    "image": "/images/cafe-latte.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "beverage_0013",
+                    "name": "캐모마일 티",
+                    "description": "은은한 향의 편안한 허브티",
+                    "price": {
+                        "$numberInt": "5500"
+                    },
+                    "image": "/images/chamomile-tea.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "beverage_0014",
+                    "name": "망고 스무디",
+                    "description": "신선한 망고로 만든 시원한 스무디",
+                    "price": {
+                        "$numberInt": "6000"
+                    },
+                    "image": "/images/mango-smoothie.jpg",
+                    "isVisible": true,
+                    "diningType": "takeout"
+                },
+                {
+                    "id": "beverage_0015",
+                    "name": "스파클링 레모네이드",
+                    "description": "상큼한 레몬의 맛을 느낄 수 있는 탄산음료",
+                    "price": {
+                        "$numberInt": "5500"
+                    },
+                    "image": "/images/sparkling-lemonade.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                }
+            ]
+        },
+        {
+            "name": "디저트",
+            "items": [
+                {
+                    "id": "dessert_0011",
+                    "name": "티라미수",
+                    "description": "부드러운 마스카포네 치즈와 에스프레소의 조화",
+                    "price": {
+                        "$numberInt": "7000"
+                    },
+                    "image": "/images/tiramisu.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "dessert_0012",
+                    "name": "초코 브라우니",
+                    "description": "진한 초콜릿 맛의 촉촉한 브라우니",
+                    "price": {
+                        "$numberInt": "6000"
+                    },
+                    "image": "/images/chocolate-brownie.jpg",
+                    "isVisible": true,
+                    "diningType": "takeout"
+                },
+                {
+                    "id": "dessert_0013",
+                    "name": "크렘 브륄레",
+                    "description": "바삭한 카라멜 크러스트의 부드러운 커스터드",
+                    "price": {
+                        "$numberInt": "8000"
+                    },
+                    "image": "/images/creme-brulee.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "dessert_0014",
+                    "name": "애플 파이",
+                    "description": "따뜻한 사과 파이와 바닐라 아이스크림",
+                    "price": {
+                        "$numberInt": "7500"
+                    },
+                    "image": "/images/apple-pie.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                },
+                {
+                    "id": "dessert_0015",
+                    "name": "치즈케이크",
+                    "description": "부드럽고 크리미한 뉴욕 스타일 치즈케이크",
+                    "price": {
+                        "$numberInt": "7000"
+                    },
+                    "image": "/images/cheesecake.jpg",
+                    "isVisible": true,
+                    "diningType": "takeout"
+                }
+            ]
+        },
+        {
+            "name": "계절메뉴",
+            "items": [
+                {
+                    "id": "2d7022a4-b45a-4cf3-b2eb-8d2dfadf1b02",
+                    "name": "화채",
+                    "description": "화채한그룻 하고가세요",
+                    "price": {
+                        "$numberInt": "10000"
+                    },
+                    "image": "/images/water-glass.jpg",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                }
+            ]
+        },
+        {
+            "name": "열대야 이기자 메뉴",
+            "items": [
+                {
+                    "id": "26094f3e-878d-4212-9dd4-10eddytfvdfc4c079",
+                    "name": "완전추워 얼음물",
+                    "description": "추워서 더이상 먹기 힘든 얼음물",
+                    "price": {
+                        "$numberInt": "5000"
+                    },
+                    "image": "/image/ice.png",
+                    "isVisible": true,
+                    "diningType": "dine-in"
+                }
+            ]
+        },
+        {
+            "name": "호출",
+            "items": [
+                {
+                    "id": "호출1",
+                    "name": "직원호출",
+                    "image": "/images/green-tea.jpg"
+                },
+                {
+                    "id": "호출2",
+                    "name": "숫가락",
+                    "image": "/images/green-tea.jpg"
+                },
+                {
+                    "id": "호출3",
+                    "name": "젓가락",
+                    "image": "/images/green-tea.jpg"
+                },
+                {
+                    "id": "호출4",
+                    "name": "물컵",
+                    "image": "/images/green-tea.jpg"
+                }
+            ]
+        }
+    ]
+}
