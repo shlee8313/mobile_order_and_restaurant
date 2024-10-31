@@ -7,6 +7,7 @@ server/node_modules/
 server/.env
 server/dist/
 server/logs/
+server/lib/serviceAccountKey.json
 
 # Restaurant Client (flutter_client)
 flutter_client/.dart_tool/
@@ -70,4 +71,4 @@ mobile_client/android/app/release
 **/ios/Flutter/flutter_assets/
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
-**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner/GeneratedPluginRegistrant.*"server/lib/serviceAccountKey.json" 
