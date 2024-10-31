@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Firebase credentials (important for security)
+server/lib/serviceAccountKey.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Generated files
+dist/
+build/
+coverage/
+
+# Miscellaneous
+*.log
+*.lock
+*.cache
+*.tmp
